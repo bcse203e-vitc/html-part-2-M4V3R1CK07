@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #ff6347;
+        color: white;
+        padding: 1em;
+        text-align: center;
+      }
+      nav {
+        background-color: #333;
+        text-align: center;
+      }
+      nav a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        display: inline-block;
+      }
+      main {
+        display: flex;
+        padding: 2em;
+      }
+      article {
+        flex: 3;
+        padding-right: 2em;
+      }
+      aside {
+        flex: 1;
+        padding-left: 2em;
+        border-left: 2px solid #ddd;
+      }
+      footer {
+        text-align: center;
+        background-color: #333;
+        color: white;
+        padding: 1em;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+      ol,
+      ul {
+        padding-left: 20px;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Delicious Pasta Recipe</h1>
+    </header>
+    <nav>
+      <a href="#Home">Home</a>
+      <a href="#Recipes">Recipes</a>
+      <a href="#Tips">Tips</a>
+    </nav>
+    <main>
+      <article>
+        <h2>Ingredients</h2>
+        <ul>
+          <li>200g of pasta</li>
+          <li>100g of grated cheese</li>
+          <li>2 tablespoons of olive oil</li>
+          <li>1 clove of garlic, minced</li>
+          <li>Salt and pepper to taste</li>
+        </ul>
+
+        <h2>Steps</h2>
+        <ol>
+          <li>Boil water in a large pot, add salt.</li>
+          <li>Add pasta and cook for 8-10 minutes or until al dente.</li>
+          <li>In a pan, heat olive oil and sauté garlic until fragrant.</li>
+          <li>Drain pasta and mix with sautéed garlic and olive oil.</li>
+          <li>Add grated cheese and mix well. Season with salt and pepper.</li>
+          <li>Serve hot and enjoy!</li>
+        </ol>
+
+        <h2>Dish Image</h2>
+        <img src="pasta-dish.jpg" alt="Delicious Pasta" />
+      </article>
+
+      <aside>
+        <h3>Nutritional Information</h3>
+        <p>Each serving contains approximately:</p>
+        <ul>
+          <li>Calories: 450 kcal</li>
+          <li>Protein: 15g</li>
+          <li>Carbs: 60g</li>
+          <li>Fat: 20g</li>
+        </ul>
+        <h3>Fun Fact</h3>
+        <p>
+          Did you know? Pasta was first invented in China and was later brought
+          to Italy by Marco Polo!
+        </p>
+      </aside>
+    </main>
+    <footer>
+      <p>
+        Contact the Chef: <a href="mailto:chef@example.com">chef@example.com</a>
+      </p>
+      <p><a href="#Recipes">Other Recipes</a></p>
+    </footer>
+  </body>
+</html>
