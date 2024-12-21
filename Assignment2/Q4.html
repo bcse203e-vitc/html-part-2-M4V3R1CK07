@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Blog</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #4caf50;
+        color: white;
+        padding: 1em;
+        text-align: center;
+      }
+      nav {
+        text-align: center;
+        background-color: #333;
+      }
+      nav a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        display: inline-block;
+      }
+      main {
+        display: flex;
+        justify-content: space-between;
+        padding: 2em;
+      }
+      article {
+        flex: 3;
+        padding-right: 2em;
+      }
+      aside {
+        flex: 1;
+        padding-left: 2em;
+        border-left: 2px solid #ddd;
+      }
+      footer {
+        text-align: center;
+        background-color: #333;
+        color: white;
+        padding: 1em;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+      ul {
+        list-style-type: square;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      .related-destination {
+        margin-bottom: 1em;
+      }
+      .related-destination img {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Travel Blog</h1>
+    </header>
+    <nav>
+      <a href="#Destinations">Destinations</a>
+      <a href="#Tips">Tips</a>
+      <a href="#Contact">Contact</a>
+    </nav>
+    <main>
+      <article>
+        <h2>Exploring Paris</h2>
+        <p>
+          Paris, the city of lights, offers a perfect blend of history, culture,
+          and beauty. From the Eiffel Tower to the Louvre Museum, Paris has
+          something for everyone.
+        </p>
+        <img src="images/paris.jpeg" alt="Paris" />
+        <h3>Travel Tips for Paris:</h3>
+        <ul>
+          <li>
+            Learn a few basic French phrases to communicate better with locals.
+          </li>
+          <li>
+            Book tickets for major attractions in advance to avoid long queues.
+          </li>
+          <li>Use public transport to get around the city efficiently.</li>
+          <li>
+            Don't forget to try local pastries like croissants and macarons.
+          </li>
+        </ul>
+      </article>
+      <aside>
+        <h3>Related Destinations</h3>
+        <div class="related-destination">
+          <h4>Rome</h4>
+          <img src="images/rome.jpeg" alt="Rome" />
+          <p>
+            A city rich in history and architecture, perfect for history buffs.
+          </p>
+        </div>
+        <div class="related-destination">
+          <h4>Tokyo</h4>
+          <img src="images/tokyo.jpeg" alt="Tokyo" />
+          <p>Explore the vibrant culture, cuisine, and technology of Tokyo.</p>
+        </div>
+      </aside>
+    </main>
+    <footer>
+      <p>&copy; 2024 Travel Blog. All Rights Reserved.</p>
+      <p><a href="mailto:aditya2708kumar@gmail.com">Contact Us</a></p>
+    </footer>
+  </body>
+</html>
