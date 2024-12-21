@@ -4,6 +4,7 @@
     <style>
       a {
         text-decoration: none;
+        color: black;
       }
       nav {
         display: flex;
@@ -18,6 +19,20 @@
       }
       div {
         display: flex;
+      }
+      li img {
+        align-self: center;
+        margin-bottom: 5px;
+      }
+      li p {
+        font-family: monospace;
+        font-size: large;
+      }
+      footer div {
+        font-family: monospace;
+      }
+      footer a {
+        font-size: large;
       }
     </style>
     <title>Portfolio</title>
@@ -34,7 +49,7 @@
         >
           <a href="#AboutMe">About Me</a>
           <a href="#Projects">Projects</a>
-          <a href="#Contact">Contact</a>
+          <a href="#ContactMe">Contact Me</a>
         </div>
       </nav>
       <h1 style="text-align: center; font-size: 400%">Aditya Kumar</h1>
@@ -65,7 +80,6 @@
             to life in every project I undertake.
           </p>
         </section>
-        <section id="Projects"></section>
         <aside style="flex: 2">
           <div>
             <img
@@ -86,30 +100,81 @@
       <section id="Projects">
         <h1>Projects</h1>
         <ol>
-          <div style="justify-content: space-between">
-            <li>
-              <h1>Rawg Clone</h1>
+          <div style="justify-content: space-between; gap: 20px">
+            <li style="display: flex; flex-direction: column">
+              <h1>
+                1.
+                <a target="_blank" href="https://rawg-io-clone-swart.vercel.app"
+                  >Rawg Clone</a
+                >
+              </h1>
               <img src="images/rawgimage.jpeg" alt="Rawg Clone" width="500" />
-              <a target="_blank" href="https://rawg-io-clone-swart.vercel.app"
-                >A</a
-              >
+              <p>
+                A clone of the Rawg.io gaming platform, developed using HTML,
+                CSS, React, and TypeScript. This project allows users to browse
+                and search for video games, view detailed information, and
+                explore game genres. It showcases modern web development
+                techniques, including component-based architecture with React,
+                type safety with TypeScript, and responsive design for an
+                optimized user experience.
+              </p>
             </li>
-            <li>
-              <h1>Tic Tac Toe</h1>
+            <li style="display: flex; flex-direction: column">
+              <h1>2. <a href="#tictactoe">Tic Tac Toe</a></h1>
               <img src="images/tictactoe.jpeg" alt="Tic Tac Toe" width="460" />
+              <p id="tictactoe">
+                A classic Tic Tac Toe game developed using Java. This project
+                features a simple user interface, allowing two players to take
+                turns and compete in a grid-based game. It demonstrates basic
+                Java programming concepts like arrays, loops, and conditionals,
+                with a focus on creating a fun and interactive experience.
+              </p>
             </li>
-            <li>
-              <h1>Hangman</h1>
-              <img src="" alt="" />
-              <a href=""></a>
+            <li style="display: flex; flex-direction: column">
+              <h1>3. <a href="#hangman">Hangman</a></h1>
+              <img src="images/hangman.jpeg" alt="Hangman" width="253" />
+              <p id="hangman">
+                A fun and interactive Hangman game built with Java. Players
+                guess letters to uncover a hidden word, with a limited number of
+                incorrect guesses allowed. This project showcases basic Java
+                concepts like string manipulation, loops, and conditional
+                statements, while providing an engaging way to test vocabulary
+                skills.
+              </p>
             </li>
           </div>
         </ol>
       </section>
     </main>
-    <footer style="font-size: x-large" id="Contact">
-      <a target="_blank" href="https://github.com/M4V3R1CK07">Github</a> |
-      <a target="_blank" href="https://linkedin.com/in/m4v3r1ck">LinkedIn</a>
+    <footer style="padding-left: 10cap; padding-right: 10cap" id="ContactMe">
+      <h1>Contact Me</h1>
+      <section style="font-size: large; padding-bottom: 50px">
+        <h3>Interested in working together? Drop a mail.</h3>
+        <a style="color: blue" href="mailto:aditya2708kumar@gmail.com"
+          ><b>aditya2708kumar@gmail.com</b></a
+        >
+      </section>
+      <section style="font-weight: bold">
+        <h3>Social Links</h3>
+        <a
+          style="color: blue"
+          target="_blank"
+          href="https://github.com/M4V3R1CK07"
+          >Github &nbsp;</a
+        >
+        |
+        <a
+          style="color: blue"
+          target="_blank"
+          href="https://linkedin.com/in/m4v3r1ck"
+          >&nbsp; LinkedIn</a
+        >
+      </section>
+      <section>
+        <h1>&nbsp;</h1>
+        <h1>&nbsp;</h1>
+        <h1>&nbsp;</h1>
+      </section>
     </footer>
   </body>
 </html>
