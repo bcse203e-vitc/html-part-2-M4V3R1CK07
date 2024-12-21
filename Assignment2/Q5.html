@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Website</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #333;
+        color: white;
+        padding: 1em;
+        text-align: center;
+      }
+      nav {
+        text-align: center;
+        background-color: #444;
+      }
+      nav a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        display: inline-block;
+      }
+      main {
+        display: flex;
+        /* justify-content: space-between; */
+        padding: 2em;
+      }
+      article {
+        flex: 3;
+        padding-right: 2em;
+        margin-bottom: 2em;
+      }
+      aside {
+        flex: 1;
+        padding-left: 2em;
+        border-left: 2px solid #ddd;
+      }
+      footer {
+        text-align: center;
+        background-color: #444;
+        color: white;
+        padding: 1em;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      ol {
+        list-style-type: decimal;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>News Website</h1>
+    </header>
+    <nav>
+      <a href="#World">World</a>
+      <a href="#Technology">Technology</a>
+      <a href="#Sports">Sports</a>
+      <a href="#Entertainment">Entertainment</a>
+    </nav>
+    <main>
+      <div class="articles">
+        <article>
+          <h2>Latest Advances in AI</h2>
+          <p><strong>Deadline:</strong> December 21, 2024</p>
+          <img src="ai-advances.jpg" alt="AI Advances" />
+          <p>
+            Artificial Intelligence continues to revolutionize various
+            industries. This article covers the latest breakthroughs...
+          </p>
+          <ol>
+            <li>AI in healthcare is improving diagnostics.</li>
+            <li>Machine learning algorithms for better decision-making.</li>
+            <li>Robotics and automation are reshaping manufacturing.</li>
+          </ol>
+        </article>
+        <article>
+          <h2>Football Championship: A New Era</h2>
+          <p><strong>Deadline:</strong> December 20, 2024</p>
+          <img src="football.jpg" alt="Football Championship" />
+          <p>
+            The football world is witnessing a new generation of players making
+            their mark in the championship leagues...
+          </p>
+          <ol>
+            <li>Rising star James Smith leads the charge.</li>
+            <li>Changes in team strategy for a more competitive game.</li>
+            <li>Global viewership at an all-time high.</li>
+          </ol>
+        </article>
+        <article>
+          <h2>Exploring the Future of Virtual Reality</h2>
+          <p><strong>Deadline:</strong> December 19, 2024</p>
+          <img src="virtual-reality.jpg" alt="Virtual Reality" />
+          <p>
+            Virtual reality is shaping up to be a cornerstone of the future of
+            entertainment and communication...
+          </p>
+          <ol>
+            <li>New VR games are pushing the limits of interaction.</li>
+            <li>
+              VR in education is providing immersive learning experiences.
+            </li>
+            <li>The rise of virtual reality concerts and events.</li>
+          </ol>
+        </article>
+      </div>
+      <aside>
+        <h3>Top Stories</h3>
+        <ul>
+          <li><a href="#">Tech Giant Announces New Gadget</a></li>
+          <li><a href="#">Olympics 2024: The Race for Gold</a></li>
+          <li><a href="#">Top Movies to Watch This Holiday Season</a></li>
+        </ul>
+      </aside>
+    </main>
+    <footer>
+      <p>
+        Subscribe for News Updates:
+        <input type="email" placeholder="Enter your email" />
+        <button>Subscribe</button>
+      </p>
+      <p>
+        Follow us: <a href="https://facebook.com" target="_blank">Facebook</a> |
+        <a href="https://twitter.com" target="_blank">Twitter</a> |
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+      </p>
+    </footer>
+  </body>
+</html>
